@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 public class Yahoo {
 
 
-    private WebDriver driver;
+    private WebDriver driver; // modification
 
 
     @BeforeTest(groups = {"fast"})
