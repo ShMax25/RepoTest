@@ -10,12 +10,12 @@ import org.testng.annotations.Test;
 public class Yahoo {
 
 
-    private WebDriver driver;
+    private WebDriver driver; // modification22222
 
 
     @BeforeTest(groups = {"fast"})
 
-    public void setupBrovserMax1 () {
+    public void setupBrovser11111 () {
             System.setProperty("webdriver.gecko.driver", "/Users/msmuli/IdeaProjects/JavaBootcamp/src/test/resources/geckodriver");
             driver = new FirefoxDriver();
         }
@@ -31,6 +31,7 @@ public class Yahoo {
         mnpg.submitSearch(driver);
         mnpg.printOutAmountOfResoults(driver);
     }
+
 
 //    private void printOutAmountOfResoults() {
 //        try {
