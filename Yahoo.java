@@ -15,7 +15,7 @@ public class Yahoo {
 
     @BeforeTest(groups = {"fast"})
 
-    public void setupBrovser () {
+    public void setupBrovser11111 () {
             System.setProperty("webdriver.gecko.driver", "/Users/msmuli/IdeaProjects/JavaBootcamp/src/test/resources/geckodriver");
             driver = new FirefoxDriver();
         }
@@ -31,6 +31,7 @@ public class Yahoo {
         mnpg.submitSearch(driver);
         mnpg.printOutAmountOfResoults(driver);
     }
+
 
 //    private void printOutAmountOfResoults() {
 //        try {
