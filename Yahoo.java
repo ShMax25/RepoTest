@@ -15,7 +15,7 @@ public class Yahoo {
 
     @BeforeTest(groups = {"fast"})
 
-    public void setupBrovser () {
+    public void setupBrovserMax () {
             System.setProperty("webdriver.gecko.driver", "/Users/msmuli/IdeaProjects/JavaBootcamp/src/test/resources/geckodriver");
             driver = new FirefoxDriver();
         }
